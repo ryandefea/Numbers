@@ -19,10 +19,10 @@ namespace Numbers.Tests
     [TestMethod]
     public void NumberToWord_CreatesWord_true()
     {
-      int numberInput = 3;
-      string changeWord = "three";
+      int numberInput = 1;
+      string changeWord = "one";
       Number newNumber = new Number(numberInput);
-      Assert.AreEqual(changeWord, newNumber.Translator(3));
+      Assert.AreEqual(changeWord, newNumber.Translator(1));
     }
   }
 }
