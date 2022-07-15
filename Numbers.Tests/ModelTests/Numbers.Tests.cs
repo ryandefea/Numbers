@@ -15,5 +15,14 @@ namespace Numbers.Tests
       Number newNumber = new Number(numberInput);
       Assert.AreEqual(numberInput, newNumber.Content);
     }
+
+    [TestMethod]
+    public void NumberToWord_CreatesWord_true()
+    {
+      int numberInput = 3;
+      string changeWord = "three";
+      Number newNumber = new Number(numberInput);
+      Assert.AreEqual(changeWord, newNumber.Translator(3));
+    }
   }
 }

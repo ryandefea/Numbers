@@ -5,7 +5,12 @@ namespace Numbers.Models
   public class Number
   {
     public int Content { get; set;}
-    // public string Content { get; set; }
+
+    public string Translator (int number)
+    {
+      return "four";
+    }
+    
 
     // public int number ()
     // {
