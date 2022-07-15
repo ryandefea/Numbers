@@ -15,6 +15,7 @@ namespace Numbers.Models
     public Number(int content)
     { 
       Content = content;
+      
     }
 
   }
